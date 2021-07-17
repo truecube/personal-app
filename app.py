@@ -10,7 +10,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://truecube:CalbAgus1@localhost/personal-app'
 else: 
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://zeoqncqkibfzks:ff108000cb33ea47c4a5811bfe884824eb22b84398a203cac91aca9224576f21@ec2-52-23-40-80.compute-1.amazonaws.com:5432/dhplfpbr7md2p'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://zeoqncqkibfzks:ff108000cb33ea47c4a5811bfe884824eb22b84398a203cac91aca9224576f21@ec2-52-23-40-80.compute-1.amazonaws.com:5432/dhplfpbr7md2p'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

@@ -14,7 +14,9 @@ heroku addons:create heroku-postgresql:hobby-dev --app personal-app
 heroku config --app yuvapersonalapp (gives you DATABASE_URL)
 heroku pg:psql --app yuvapersonalapp
 
+
 creating tables: 
+(for heroku run `heroku run python`)
 using pgadmin4 create 'personal-app' database
 enter python terminal and type: 
     from app import db
